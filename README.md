@@ -11,14 +11,15 @@ Here is the link to my [GitHub](https://github.com/nmn08)
 ## All other core Markdown constructs
 **This is my GitHub Page**
 
-*CSE110*
+***CSE110***
 
 ~~Lab 2~~
 
-***Lab 1***
+*Lab 1*
 
 This is my recent favorite quote from *Steve Jobs*
 >Your time is limited, so don't waste it living someone else's life
+
 Some basic Git commands are:
 ```
 git status
@@ -26,7 +27,7 @@ git add
 git commit
 ```
 
-Here are some common terminal commands:
+Some common terminal commands:
 - **pwd** Print working directory (pwd) displays the path name of the current directory
 - **cd** Change Directory
 - **mkdir** Make a new directory / file folder
@@ -38,7 +39,7 @@ Here are some common terminal commands:
 - **ls** -l Displays a long list vertically with file permissions, date modified and file name
 - **ls** -la Displays all files
 
-1. My favorites course so far:
+1. Favorites courses:
    - Computer Science Department
      - CSE100
      - CSE151A
