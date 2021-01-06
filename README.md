@@ -1,32 +1,65 @@
-## Welcome to GitHub Pages
+# Welcome to GitHub Pages
 
-You can use the [editor on GitHub](https://github.com/nmn08/cse110lab1/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
+## Links
+Here is the link to my [GitHub](https://github.com/nmn08)
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Pictures
+![Image](https://webbox.imgix.net/images/auuhtaumbyxsgzan/f148a236-7168-4efc-bd8f-158c92de08fe.jpg)
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
 
-```markdown
-Syntax highlighted code block
+## All other core Markdown constructs
+**This is my GitHub Page**
 
-# Header 1
-## Header 2
-### Header 3
+*CSE110*
 
-- Bulleted
-- List
+~~Lab 2~~
 
-1. Numbered
-2. List
+***Lab 1***
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+This is my recent favorite quote from *Steve Jobs*
+>Your time is limited, so don't waste it living someone else's life
+Some basic Git commands are:
+```
+git status
+git add
+git commit
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Here are some common terminal commands:
+- **pwd** Print working directory (pwd) displays the path name of the current directory
+- **cd** Change Directory
+- **mkdir** Make a new directory / file folder
+- **touch** Make a new file
+- **..** Go up one level / directory
+- **cd** ~ Return to home directory
+- **clear** Clears information on the display screen to provide a blank slate
+- **ls** List provides a list of all files with a directory
+- **ls** -l Displays a long list vertically with file permissions, date modified and file name
+- **ls** -la Displays all files
+
+1. My favorites course so far:
+   - Computer Science Department
+     - CSE100
+     - CSE151A
+   - Cosginitive Science Department
+     - COGS108
+
+2. Courses this quarter:
+   - Enrolled:
+     - CSE101
+     - CSE110
+     - ENG100D
+   - Waitlist:
+     - COGS120
+     - CSE134
+     
+Assignments need to be done for the first week in CSE110:
+- [ ] Assignment Fill out Individual and Team Survey 
+- [x] Assignment Lab Week 1 - Markdown and GitHub Pages
+- [ ] Assignment Individual Engineer Statement
+
+:+1: To get back to school next quarter
 
 ### Jekyll Themes
 
