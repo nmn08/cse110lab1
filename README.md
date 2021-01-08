@@ -1,7 +1,11 @@
 # Welcome to GitHub Pages
 
-## Links
+## Links - Relative Links - Section Links
 Here is the link to my [GitHub](https://github.com/nmn08)
+
+[Click here for relative link](relativeLinkTest.txt)
+
+[Click here to go to All other core Markdown constructs section](#all-other-core-markdown-constructs)
 
 ## Pictures
 ![Image](https://webbox.imgix.net/images/auuhtaumbyxsgzan/f148a236-7168-4efc-bd8f-158c92de08fe.jpg)
@@ -20,11 +24,10 @@ Here is the link to my [GitHub](https://github.com/nmn08)
 This is my recent favorite quote from *Steve Jobs*
 >Your time is limited, so don't waste it living someone else's life
 
-Some basic Git commands are:
+A definition of a sum function:
 ```
-git status
-git add
-git commit
+def sum(a,b):
+   return a+b
 ```
 
 Some common terminal commands:
