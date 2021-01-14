@@ -2,66 +2,218 @@
 
 <html>
 <head>
-  <meta charset="utf-8">
-  <title>CSE 101 Lab 2</title>
-  <style>
-  body {
-    margin-top: 100px;
-    margin-bottom: 100px;
-    margin-right: 150px;
-    margin-left: 50px;
-  }
+    <meta charset="utf-8">
+    <meta name="keywords" content="HTML, CSS">
+    <meta name="author" content="Nhat Nguyen">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSE 101 Lab 2</title>
 
-  div {
-    padding-top: 25px;
-    padding-bottom: 25px;
-  }
-  .projects {
-    margin-left : 15px;
-  }
-  </style>
+    <style>
+    body {
+        margin-top: 100px;
+        margin-bottom: 100px;
+        margin-right: 150px;
+        margin-left: 50px;
+    }
+
+    div {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .projects {
+        margin-left : 15px;
+    }
+
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+
+    nav {
+        display: block;
+    }
+
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+    }
+
+    td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+    }
+
+    tr:nth-child(even) {
+        background-color: #dddddd;
+    }
+    </style>
 </head>
-
+<header>
+    <nav>
+        <a href="index.html">Home</a> |
+        <a href="history.html">History</a> |
+    </nav>
+</header>
 <body>
     <!-- My Name -->
     <!-- h1 through h5 are headers. The higher the number, the smaller the header -->
     <h1>Nhat Nguyen</h1> 
-    <h4>CSE 101 Lab 2</h4>
+    <h2>CSE 101 Lab 2</h2>
+    <h3>Favorite Sport Team: Arsenal</h3>
+    <img src="images/banner.jpg" alt="Arsenal Banner" class="center">
 
-    <!-- Description -->
-    <p>Nhat Nguyen is a senior Computer Science student at UC San Diego.</p>
-    <div class="projects">
-        <h4>Projects</h4>
-        <ol >
-        <!-- Project 1 -->
-        <li>Travel Cost Calculator with Database</li>
-        <div>
-            <img src="images/Project1.JPG" alt="Project 1">
-            <p>
-                Description
-                <ul>
-                    <li>Built a full-stack dynamic web app to allow travel lover to split their travel cost.</li>
-                    <li>Designed the front-end logic from scratch using Bootstrap4 framework and used PHP to connect and retrieve data from MySQL database </li>
-                    <li>Utilized Ajax method in jQuery to enhance user experience.</li>
-                </ul>
-            </p>
-            <a href="https://trip-calculator-demo.herokuapp.com/">Demo Link</a>
-        </div>
     
-        <!-- Project 2 -->
-        <li>Travel Cost Calculator with Database</li>
-        <div>
-            <img src="images/Project2.JPG" alt="Project 1">
+
+    <div class="projects">
+        <section>
+            <!-- Information -->
+            <h4>Information</h4>
+            <details>
+                <summary>Summary</summary>
+                <p>
+                    Arsenal Football Club is a professional football club based in Islington, London, England that plays in the Premier League,
+                    the top flight of English football.
+                </p>
+            </details>
             <p>
-                Description
-                <ul>
-                    <li>Built a CRUD web app without a database to allow splitting travel cost.</li>
-                    <li>Used Bootstrap4, JavaScript and jQuery.</li>
-                </ul>
+                
             </p>
-            <a href="https://nmn08.github.io/tripcostcalculator/">Demo Link</a>
-        </div>
-        </ol>
+            <ul>
+                <li>
+                    Manager: <a href="">Mikel Arteta</a>
+                </li>
+                <li>
+                    Arena/Stadium: <a href="">Emirates Stadium</a>
+                </li>
+                <li>
+                    Owner: <a href="">KSE, UK, Inc.</a>
+                </li>
+                <li>
+                    Location: <a href="">London Borough of Islington, London, United Kingdom</a>
+                </li>
+            </ul>
+        </section>
+
+        <section>
+            <!-- Current Favorite XI Team -->
+            <h4>Current Favorite XI Team</h4>
+            
+            <ol>
+                <li><b>Goalkeeper:</b> 
+                    <ul>
+                        <li>1.Bernd Leno</li>
+                    </ul>
+                </li>
+                <li><b>Defenders:</b>
+                    <ul>
+                        <li>2. Hector Bellerin</li>
+                        <li>3. Kieran Tierney</li>
+                        <li>6. Gabriel</li>
+                        <li>16. Rob Holding</li>
+                    </ul>
+                </li>
+                <li><b>Midfielders:</b>
+                    <ul>
+                        
+                        <li>18. Thomas Partey</li>
+                        <li>32. Emile Smith Rowe</li>
+                        <li>34. Granit Xhaka</li>
+                    </ul>
+                </li>
+                <li><b>Forwards:</b>
+                    <ul>
+                        <li>7. Bukayo Saka</li>
+                        <li>14. Aubameyang</li>
+                        <li>19. Nicolas Pepe</li>
+                    </ul>
+                </li>
+            </ol>
+        </section>
+
+        <section>
+            <!-- Recent Result Matches -->
+            <h4>Recent Match Results</h4>
+            <table>
+                <tr>
+                    <th>Date</th>
+                    <th>Home/Away</th>
+                    <th>Team</th>
+                    <th>Result</th>
+                </tr>
+                <tr>
+                    <td>Sat, 1/9</td>
+                    <td>Home</td>
+                    <td>Newcastle</td>
+                    <td>2-0</td>
+                </tr>
+                <tr>
+                    <td>Sat, 1/2</td>
+                    <td>Away</td>
+                    <td>West Brom</td>
+                    <td>0-4</td>
+                </tr>
+                <tr>
+                    <td>Tue, 12/29</td>
+                    <td>Away</td>
+                    <td>Brighton</td>
+                    <td>0-1</td>
+                </tr>
+                <tr>
+                    <td>Sat, 12/26</td>
+                    <td>Home</td>
+                    <td>Chelsea</td>
+                    <td>3-1</td>
+                </tr>
+              </table>
+        </section>
+
+        <section>
+            <h4>Interested in becoming a Gunnners?</h4>
+            <form action="/action_page.php">
+                <!-- 1. text -->
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname"><br>
+                <label for="gerne">Gerne:</label><br>
+                <select name="gernes" id="gernes">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    <option value="na">N/A</option>
+                </select><br>
+                <!-- 2. email -->
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email"><br>
+                <!-- 3. number -->
+                <label for="tel">Telephone Number:</label><br>
+                <input type="number" id="phNumber" name="phNumber"> <br>
+                <label for="uName">User Namme:</label><br>
+                <input type="text" id="uName" name="uName"><br>
+                <!-- 4. password -->
+                <label for="pWord">Password:</label><br>
+                <input type="password" id="pWord" name="pWord"><br>
+                <!-- 5. date -->
+                <labeL for="date">Date of Birth:</labeL><br>
+                <input type="date" id="date" name="date"><br>
+                <!-- 6. color -->
+                <label for="color">Favorite Color:</label><br>
+                <input type="color" id="color" name="color"><br>
+                <!-- 7. checkbox -->
+                <input type="checkbox" id="subs" name="subs"> Agree to subscribe to newsletters <br>
+                <!-- 8. radio -->
+                <p>Select all that apply?</p>
+                <input type="radio" id="1w" name="1w" value="1w">
+                <label for="1w">Love watching soccer match</label><br>
+                <input type="radio" id="1m" name="1m" value="1m">
+                <label for="1m">Love playing soccer</label><br>
+                <!-- 9. submit -->
+                <input type="submit" value="Submit">
+              </form> 
+        </section>
     </div>
 </body>
 </html>
